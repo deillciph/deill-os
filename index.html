@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#101013" name="theme-color"/>
+<meta content="DEILL_OS - Interactive portfolio of DEILL, a software developer in Chile. Web development, back-end systems, and selected projects." name="description"/>
+<title>DEILL_OS</title>
+<link rel="icon" href="favicon.svg?v=3.5" type="image/svg+xml" sizes="any"/>
+<link rel="alternate icon" href="favicon.ico?v=3.5" sizes="16x16 32x32"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=3.5" sizes="180x180"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="DEILL_OS"/>
+<meta property="og:title" content="DEILL_OS // Software Developer"/>
+<meta property="og:description" content="Interactive desktop portfolio · Web, backend &amp; systems · Chile · Open to work."/>
+<meta property="og:url" content="https://deillciph.github.io/deill-os/"/>
+<meta property="og:image" content="https://deillciph.github.io/deill-os/og-preview.png"/>
+<meta property="og:image:alt" content="DEILL_OS desktop portfolio, retro red and black interface with binary rain and project windows"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="es_CL"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="DEILL_OS // Software Developer"/>
+<meta name="twitter:description" content="An interactive portfolio in a retro red-alert desktop."/>
+<meta name="twitter:image" content="https://deillciph.github.io/deill-os/og-preview.png"/>
+<link href="styles.css?v=3.14" rel="stylesheet"/>
+</head>
+<body>
+<div aria-label="Iniciando DEILL OS" class="boot-screen" id="bootScreen">
+<div class="boot-inner">
+<div aria-hidden="true" class="boot-symbol"><span class="boot-prompt">C:\&gt;<b>_</b></span></div>
+<div class="micro red">[ SYSTEM BOOT / 01 ]</div>
+<h1>DEILL<span>_OS</span></h1>
+<p aria-live="polite" class="boot-output" id="bootOutput">INITIALIZING INTERFACE<span class="cursor">_</span></p>
+<div class="boot-loader"><i id="bootProgress"></i></div>
+<div class="boot-row"><span>SECURE ENVIRONMENT // VISUAL SIMULATION</span><button id="skipBoot" type="button">SKIP INTRO ↗</button></div>
+</div>
+</div>
+<div class="site-shell" id="siteShell">
+<div class="system-topbar">
+<div class="brand-mark"><span aria-hidden="true" class="brand-symbol">D_</span><span>DEILL<span class="muted">_OS</span></span><span class="brand-version">v.3.14</span></div>
+<div aria-hidden="true" class="topbar-center"><span class="topbar-line"></span> PRIVATE TERMINAL // DEVELOPER ENVIRONMENT <span class="topbar-line"></span></div>
+<div class="topbar-right"><span class="status-led"></span><span class="top-online">SYSTEM ONLINE</span><span class="divider"></span><span class="clock-zone">CHILE</span><time class="clock" id="topClock" aria-label="Hora actual en Chile continental" title="Hora en Chile continental (America/Santiago)">00:00:00</time></div>
+</div>
+<main aria-label="Escritorio interactivo de DEILL" class="desktop" id="desktop">
+<canvas aria-hidden="true" class="binary-canvas" id="binaryCanvas"></canvas>
+<div aria-hidden="true" class="scanlines" id="scanlines"></div>
+<div aria-hidden="true" class="background-title"><div>EST. <span>20XX</span> / CHILE</div><strong>DEILL</strong><div class="background-caption">ARCHITECTURE // ENGINEERING // SYSTEMS</div></div>
+<div aria-hidden="true" class="desktop-coordinate top-left">[ 00: INITIALIZED ]</div>
+<div aria-hidden="true" class="desktop-coordinate bottom-right">NO THREATS DETECTED. ONLY IDEAS.</div>
+<nav aria-label="Accesos directos" class="desktop-shortcuts">
+<button aria-label="Abrir sobre mí" class="desktop-shortcut active" data-open="about" type="button"><span class="shortcut-icon icon-user">D<span class="icon-corner">//</span></span><span>about.exe</span></button>
+<button aria-label="Abrir proyectos" class="desktop-shortcut" data-open="projects" type="button"><span class="shortcut-icon icon-folder"><svg aria-hidden="true" viewbox="0 0 48 48"><path d="M5 14V8h17l5 6h16v27H5z"></path><path d="M5 19h38"></path></svg></span><span>projects.dir</span></button>
+<button aria-label="Abrir tecnologías" class="desktop-shortcut" data-open="stack" type="button"><span class="shortcut-icon icon-code">{ }</span><span>stack.cfg</span></button>
+<button aria-label="Abrir terminal" class="desktop-shortcut" data-open="terminal" type="button"><span class="shortcut-icon icon-terminal">&gt;_</span><span>terminal.exe</span></button>
+<button aria-label="Abrir contacto" class="desktop-shortcut" data-open="contact" type="button"><span class="shortcut-icon icon-mail">@</span><span>contact.txt</span></button>
+</nav>
+<section aria-label="Ventana Sobre mí" class="window window-about visible focused" data-window="about" style="--win-x:19%;--win-y:11%;">
+<header class="window-titlebar"><div class="window-name"><span class="win-app-icon">D</span><span>ABOUT_ME.exe</span><span class="window-titlepath">C:\\USER\\DEILL</span></div><div class="window-controls"><button aria-label="Minimizar Sobre mí" data-minimize="" type="button">-</button><button aria-label="Maximizar Sobre mí" data-maximize="" type="button">▢</button><button aria-label="Cerrar Sobre mí" class="close" data-close="" type="button">×</button></div></header>
+<div class="window-body about-body">
+<div class="about-topline"><span class="section-index">[ IDENTITY VERIFIED ]</span><span class="badge">● OPEN TO WORK</span></div>
+<div class="about-hero"><div aria-hidden="true" class="hero-monogram"><span class="mono-frame"></span><span class="mono-d">D</span><div class="mono-lines">0101<br/>1010<br/>0110</div></div><div class="about-headline"><span class="eyebrow">HELLO WORLD, I'M</span><h2>DEILL<span class="red-dot">.</span></h2><p>SOFTWARE DEVELOPER // WEB &amp; SYSTEMS</p></div></div>
+<p class="intro">I build web applications, backend systems and interactive interfaces. I enjoy translating complex requirements into software that is clear, maintainable and useful.</p>
+<div class="about-divider"><span>[ PROFILE.DAT ]</span><span>100% LOADED</span></div>
+<div class="detail-columns"><div><small>LOCATION</small><strong>CHILE · REMOTE</strong></div><div><small>FOCUS</small><strong>FULL STACK / BACKEND</strong></div><div><small>CURRENT MODE</small><strong class="green">OPEN TO WORK</strong></div></div>
+<div class="action-row"><button class="primary-button" data-open="projects" type="button">VIEW PROJECTS <span>↗</span></button><button class="secondary-button" data-open="terminal" type="button">OPEN TERMINAL <span>&gt;_</span></button></div>
+<div class="about-footer"><span>DEILL_OS © <span id="copyrightYear">2026</span></span><span>DESIGNED TO DISRUPT <i aria-hidden="true">//</i></span></div>
+</div>
+</section>
+<section aria-label="Ventana Terminal" class="window window-terminal visible" data-window="terminal" style="--win-x:62%;--win-y:19%;">
+<header class="window-titlebar"><div class="window-name"><span class="win-app-icon prompt-icon">&gt;_</span><span>root@deill:~</span></div><div class="window-controls"><button aria-label="Minimizar Terminal" data-minimize="" type="button">-</button><button aria-label="Maximizar Terminal" data-maximize="" type="button">▢</button><button aria-label="Cerrar Terminal" class="close" data-close="" type="button">×</button></div></header>
+<div class="terminal-body"><div class="terminal-upper"><span>DEILL SHELL [v1.0.0]</span><span>● CONNECTED</span></div><div aria-label="Historial de la terminal" aria-live="polite" class="terminal-output" id="terminalOutput" role="log"><p class="term-dim">Boot completed. Welcome back, operator.</p><p class="term-logo">&gt; ACCESS GRANTED_</p><p class="term-dim">Type <span class="term-highlight">help</span> for available commands.</p></div><form autocomplete="off" class="terminal-form" id="terminalForm"><label for="terminalInput">deill@system:~$</label><input aria-label="Escribe un comando" autocomplete="off" id="terminalInput" maxlength="120" placeholder="help" spellcheck="false" type="text"/><button aria-label="Ejecutar comando" type="submit">↵</button></form></div>
+</section>
+<section aria-label="Ventana Proyectos" class="window window-generic" data-window="projects" style="--win-x:24%;--win-y:13%;">
+<header class="window-titlebar"><div class="window-name"><span class="win-app-icon">▤</span><span>PROJECTS.dir</span><span class="window-titlepath">D:\\WORK\\</span></div><div class="window-controls"><button aria-label="Minimizar Proyectos" data-minimize="" type="button">-</button><button aria-label="Maximizar Proyectos" data-maximize="" type="button">▢</button><button aria-label="Cerrar Proyectos" class="close" data-close="" type="button">×</button></div></header>
+<div class="window-body generic-body"><div class="generic-header"><span class="section-index">[ PORTFOLIO / SELECTED WORK ]</span><h2>SELECTED <em>WORK</em></h2><p>Public work, delivered systems and work in progress - clearly labeled.</p></div>
+<div class="project-list">
+<article class="project project-featured" id="noctumProject">
+<div class="project-num">01 //</div><div>
+<div class="project-heading"><h3>NOCTUM</h3><span class="project-featured-label">PUBLIC WEB PROJECT</span></div>
+<p>Custom website presentation and status landing for NOCTUM, using a dark visual identity, tailored UI and web layout.</p>
+<div class="tag-row"><span>HTML</span><span>CSS</span><span>WEB DESIGN</span><span class="tag-status">PUBLIC WEBSITE</span></div>
+<div class="project-actions"><a class="project-link" href="https://www.noctum.es/" rel="noopener noreferrer" target="_blank">VISIT WEBSITE ↗</a></div>
+<details class="case-study"><summary>VIEW PROJECT NOTES</summary><div class="case-study-content"><p><strong>Scope:</strong> custom presentation and web interface work. This entry does not claim ownership of all content or infrastructure behind noctum.es.</p><p><strong>Evidence:</strong> external site. The public site is linked above; project notes describe web interface work without claiming ownership of third-party infrastructure.</p></div></details>
+</div><span aria-hidden="true" class="project-arrow">↗</span>
+</article>
+<article class="project" id="municipalProject">
+<div class="project-num">02 //</div><div>
+<div class="project-heading"><h3>Committee Management System</h3><span class="project-stage">DELIVERED · NOT DEPLOYED</span></div>
+<p>Administrative web application designed to organize housing committee information, user access and document workflows. Delivered to the institution; not released to production.</p>
+<div class="tag-row"><span>PYTHON</span><span>FLASK</span><span>MYSQL</span><span>ADMIN SYSTEM</span></div>
+<details class="case-study"><summary>VIEW CASE STUDY</summary><div class="case-study-content">
+<p><strong>Problem:</strong> administrative information and processes needed to be organized through a structured web application.</p>
+<p><strong>Development:</strong> application flows for committee records, user roles, beneficiary management and document tracking.</p>
+<p><strong>Result:</strong> software delivered to the institution. No production deployment or usage metrics are claimed.</p>
+<p><strong>Disclosure:</strong> institution and private records are omitted. Demonstrations, if added later, will use independently created mock data and material cleared for sharing.</p>
+</div></details>
+</div><span aria-hidden="true" class="project-arrow">02</span>
+</article>
+<article class="project" id="fivemProject">
+<div class="project-num">03 //</div><div>
+<div class="project-heading"><h3>FiveM / ESX Systems</h3><span class="project-stage">IN DEVELOPMENT</span></div>
+<p>Modular multiplayer resources, Lua scripting, client/server logic, interface integrations and game-system architecture.</p>
+<div class="tag-row"><span>LUA</span><span>JAVASCRIPT</span><span>SQL</span><span>FIVEM</span></div>
+<details class="case-study"><summary>VIEW TECHNICAL FOCUS</summary><div class="case-study-content"><p><strong>Focus:</strong> design boundaries between native GTA/FiveM behavior, ESX functionality and custom server resources.</p><p><strong>Status:</strong> ongoing engineering and local validation; no live-server claims for unfinished components.</p><p><strong>Evidence:</strong> public-safe diagrams, screenshots and independently owned demonstrations can be added once reviewed.</p></div></details>
+</div><span aria-hidden="true" class="project-arrow">03</span>
+</article>
+<article class="project">
+<div class="project-num">04 //</div><div>
+<div class="project-heading"><h3>Community Automation</h3><span class="project-stage">SELECTED WORK</span></div>
+<p>Experiments and development work involving Discord bots, commands, role workflows and persistent community data.</p>
+<div class="tag-row"><span>PYTHON</span><span>DISCORD</span><span>DATA</span></div>
+</div><span aria-hidden="true" class="project-arrow">04</span>
+</article>
+<article class="project">
+<div class="project-num">05 //</div><div>
+<div class="project-heading"><h3>Velcrion Systems</h3><span class="project-stage">IN PROGRESS</span></div>
+<p>Independent software identity for future tools, experiments and product development. Presented as an evolving initiative, not an established client portfolio.</p>
+<div class="tag-row"><span>SOFTWARE</span><span>PRODUCT DESIGN</span><span>EXPERIMENTS</span></div>
+</div><span aria-hidden="true" class="project-arrow">05</span>
+</article>
+</div><p class="note">// Entries distinguish public work, delivery and development status. No private code or personal records are published.</p></div>
+</section>
+<section aria-label="Ventana Tecnologías" class="window window-generic" data-window="stack" style="--win-x:29%;--win-y:15%;">
+<header class="window-titlebar"><div class="window-name"><span class="win-app-icon">{}</span><span>STACK.cfg</span></div><div class="window-controls"><button aria-label="Minimizar Tecnologías" data-minimize="" type="button">-</button><button aria-label="Maximizar Tecnologías" data-maximize="" type="button">▢</button><button aria-label="Cerrar Tecnologías" class="close" data-close="" type="button">×</button></div></header>
+<div class="window-body generic-body"><div class="generic-header"><span class="section-index">[ SYSTEM CAPABILITIES ]</span><h2>TECH <em>STACK</em></h2><p>Tools I work with and systems I like to build.</p></div><div class="stack-sections"><div class="stack-row"><span>01 / LANGUAGES</span><div><i>Python</i><i>JavaScript</i><i>Lua</i><i>SQL</i><i>HTML / CSS</i></div></div><div class="stack-row"><span>02 / FRAMEWORKS</span><div><i>Flask</i><i>discord.py</i><i>FiveM</i><i>ESX</i></div></div><div class="stack-row"><span>03 / DATA &amp; TOOLS</span><div><i>MySQL</i><i>MariaDB</i><i>Git</i><i>Docker</i><i>VS Code</i></div></div></div><div class="generic-foot">"IT WORKS ON MY MACHINE" <span class="red">// FAMOUS LAST WORDS</span></div></div>
+</section>
+<section aria-label="Ventana Contacto" class="window window-generic window-contact" data-window="contact" style="--win-x:27%;--win-y:14%;">
+<header class="window-titlebar"><div class="window-name"><span class="win-app-icon">@</span><span>CONTACT.txt</span></div><div class="window-controls"><button aria-label="Minimizar Contacto" data-minimize="" type="button">-</button><button aria-label="Maximizar Contacto" data-maximize="" type="button">▢</button><button aria-label="Cerrar Contacto" class="close" data-close="" type="button">×</button></div></header>
+<div class="window-body generic-body"><div class="generic-header"><span class="section-index">[ CONNECTION REQUEST ]</span><h2>LET'S <em>CONNECT</em></h2><p>Available for remote opportunities, freelance work and technical collaboration.</p></div><div class="contact-cards">
+<div class="contact-card"><span>01 / AVAILABILITY</span><strong>OPEN TO WORK</strong><small>REMOTE · DEVELOPMENT · WEB &amp; SYSTEMS</small></div>
+<div class="contact-card"><span>02 / GITHUB</span><a class="contact-main-link" href="https://github.com/deillciph" target="_blank" rel="noopener noreferrer"><strong>github.com/deillciph</strong><span aria-hidden="true">↗</span></a><small>Explore my projects, code and development work.</small></div>
+<div class="contact-card"><span>03 / COLLABORATION</span><strong>LET'S BUILD SOMETHING</strong><small>Available for remote work, freelance projects and technical collaboration.</small></div>
+</div></div>
+</section>
+<section aria-label="Ventana Preferencias" class="window window-settings" data-window="settings" style="--win-x:36%;--win-y:21%;">
+<header class="window-titlebar"><div class="window-name"><span class="win-app-icon">⚙</span><span>DISPLAY.cfg</span></div><div class="window-controls"><button aria-label="Minimizar Preferencias" data-minimize="" type="button">-</button><button aria-label="Maximizar Preferencias" data-maximize="" type="button">▢</button><button aria-label="Cerrar Preferencias" class="close" data-close="" type="button">×</button></div></header>
+<div class="window-body generic-body"><div class="generic-header"><span class="section-index">[ DISPLAY SETTINGS ]</span><h2>CONTROL <em>PANEL</em></h2></div><label class="setting-line"><span><strong>Binary rain</strong><small>Background animation</small></span><input checked="" id="toggleRain" type="checkbox"/></label><label class="setting-line"><span><strong>Scanlines</strong><small>CRT overlay</small></span><input checked="" id="toggleScanlines" type="checkbox"/></label><label class="setting-line"><span><strong>Custom cursor</strong><small>Static red pointer - no hover effects</small></span><input checked="" id="toggleCursor" type="checkbox"/></label><div class="setting-bottom">RED ALERT INTERFACE / LOCAL VISUAL EFFECTS ONLY</div></div>
+</section>
+<div aria-hidden="true" class="ambient-caption"><span>[!]</span> <span id="statusMessage">DEILL_OS // DESKTOP READY</span></div>
+</main>
+<footer aria-label="Barra de tareas" class="taskbar">
+<div class="taskbar-left"><button aria-expanded="false" aria-label="Abrir menú de inicio" class="task-start" id="startButton" type="button"><span aria-hidden="true" class="start-glyph start-prompt">&gt;_</span><span>START</span></button><span class="taskbar-divider"></span><div class="task-programs" id="taskPrograms"><button class="task-program selected" data-open="about" type="button"><b>D</b><span>ABOUT_ME</span></button><button class="task-program selected" data-open="terminal" type="button"><b>&gt;_</b><span>TERMINAL</span></button><button class="task-program" data-open="projects" type="button"><b>▤</b><span>PROJECTS</span></button><button class="task-program" data-open="stack" type="button"><b>{ }</b><span>STACK</span></button><button class="task-program" data-open="contact" type="button"><b>@</b><span>CONTACT</span></button></div></div>
+<div class="taskbar-right"><button aria-label="Preferencias" class="settings-button" data-open="settings" type="button">⚙</button><span class="taskbar-network">● LINK STABLE</span><div class="visit-stats" aria-label="Estadísticas de visitas"><span class="visit-personal">visits: <strong id="personalVisits">-</strong></span><span class="visit-separator" aria-hidden="true">|</span><span class="visit-personal visit-total">total visits: <span class="visit-count-image"><img src="https://hits.sh/deillciph.github.io/deill-os.svg?label=%20&amp;style=flat-square&amp;color=black&amp;labelColor=black" alt="Contador total de visitas" height="16" referrerpolicy="no-referrer" decoding="async"/></span></span></div><span class="taskbar-clock-label">LOCAL</span><time id="taskClock" aria-label="Hora local del visitante" title="Hora local de tu dispositivo">00:00</time></div>
+</footer>
+<div class="start-menu" hidden="" id="startMenu"><div class="start-menu-head"><span aria-hidden="true" class="start-menu-logo start-prompt">&gt;_</span><div><strong>DEILL_OS</strong><small>DEVELOPER ENVIRONMENT</small></div></div><div class="start-menu-list"><button data-open="about" type="button"><span>◉</span> About me</button><button data-open="projects" type="button"><span>▤</span> Projects</button><button data-open="stack" type="button"><span>{ }</span> Tech stack</button><button data-open="terminal" type="button"><span>&gt;_</span> Terminal</button><button data-open="contact" type="button"><span>@</span> Contact</button><button data-open="settings" type="button"><span>⚙</span> Display settings</button></div><button class="start-reboot" id="rebootButton" type="button"><span>⟳</span> REBOOT INTERFACE</button></div>
+</div>
+<script src="app.js?v=3.13"></script>
+</body>
+</html>

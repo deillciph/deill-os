@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="DEILL_OS logo">
+<rect width="64" height="64" rx="7" fill="#0c0b0e"/>
+<rect x="5" y="5" width="54" height="54" rx="4" fill="#190c10" stroke="#ff3157" stroke-width="3"/>
+<rect x="5" y="5" width="6" height="54" fill="#f52449"/>
+<text x="15" y="44" fill="#ff3157" font-family="Consolas,monospace" font-size="37" font-weight="bold" letter-spacing="-3">D</text>
+<rect x="43" y="45" width="13" height="4" fill="#ff3157"/>
+</svg>
